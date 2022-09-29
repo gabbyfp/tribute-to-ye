@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+  color: whitesmoke;}
+
+.main{
+  text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.customIndent {margin-left: 10px;}
+h2 {text-decoration: underline;}
+a {color:tan}
+a:hover {
+  color:hotpink;
+}
+blockquote {text-align: center; 
+  color: antiquewhite;
+  font-style: italic;}
+
+blockquote:hover {
+  color: hotpink;
+font-weight:bold; font-size: large;}
