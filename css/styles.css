@@ -1,9 +1,10 @@
 body{
   background-color: black;
-  color: whitesmoke;}
+  color: whitesmoke;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
 .main{
-  text-align: center;
+  text-align: center; color: white;
 }
 
 .center {
@@ -14,7 +15,8 @@ body{
   }
 
 .customIndent {margin-left: 10px;}
-h2 {text-decoration: underline;}
+h2 {text-decoration: underline;
+color:white;}
 a {color:tan}
 a:hover {
   color:hotpink;
@@ -26,3 +28,11 @@ blockquote {text-align: center;
 blockquote:hover {
   color: hotpink;
 font-weight:bold; font-size: large;}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
